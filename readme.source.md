@@ -619,6 +619,6 @@
   <span style={{
     fontSize: 11, color: 'rgba(255,255,255,0.20)', letterSpacing: 3,
     fontWeight: 300, marginTop: 8, zIndex: 10
-  }}>gaurav kumar pandey · designed with 💙 using google antigravity</span>
+  }}>gaurav kumar pandey · everything for my puchu 💖</span>
 </div>
 ```
