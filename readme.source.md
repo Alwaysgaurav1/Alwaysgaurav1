@@ -572,16 +572,16 @@
 
 ```aura width=860 height=80
 <div style={{
-  width: '100%', height: '100%', background: '#06060a',
+  width: '100%', height: '100%', background: '#fff5f6',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
-  borderRadius: 16, border: '1px solid rgba(0,229,255,0.05)'
+  borderRadius: 16, border: '1px solid rgba(236,72,153,0.16)'
 }}>
 
   <style>{`
     @keyframes ft-scan { 0% { transform: translateY(-80px); } 100% { transform: translateY(80px); } }
-    @keyframes ft-pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.7; } }
-    @keyframes ft-orb { 0%, 100% { transform: translate(0,0); opacity: 0.25; } 50% { transform: translate(30px,-10px); opacity: 0.45; } }
+    @keyframes ft-pulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.8; } }
+    @keyframes ft-orb { 0%, 100% { transform: translate(0,0); opacity: 0.3; } 50% { transform: translate(30px,-10px); opacity: 0.5; } }
     #ftscan { animation: ft-scan 4s linear infinite; }
     #ftd1 { animation: ft-pulse 3s ease-in-out infinite; }
     #ftd2 { animation: ft-pulse 3s ease-in-out infinite 1s; }
@@ -592,33 +592,33 @@
   <svg width="860" height="80" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <linearGradient id="fsg" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stopColor="rgba(0,229,255,0)" />
-        <stop offset="45%" stopColor="rgba(0,229,255,0.03)" />
-        <stop offset="50%" stopColor="rgba(0,229,255,0.08)" />
-        <stop offset="55%" stopColor="rgba(0,229,255,0.03)" />
-        <stop offset="100%" stopColor="rgba(0,229,255,0)" />
+        <stop offset="0%" stopColor="rgba(236,72,153,0)" />
+        <stop offset="45%" stopColor="rgba(236,72,153,0.02)" />
+        <stop offset="50%" stopColor="rgba(236,72,153,0.06)" />
+        <stop offset="55%" stopColor="rgba(236,72,153,0.02)" />
+        <stop offset="100%" stopColor="rgba(236,72,153,0)" />
       </linearGradient>
       <radialGradient id="ftg1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(139,92,246,0.25)" />
-        <stop offset="100%" stopColor="rgba(139,92,246,0)" />
+        <stop offset="0%" stopColor="rgba(236,72,153,0.20)" />
+        <stop offset="100%" stopColor="rgba(236,72,153,0)" />
       </radialGradient>
     </defs>
 
-    <line x1="0" y1="1" x2="860" y2="1" stroke="rgba(0,229,255,0.06)" strokeWidth="1" />
+    <line x1="0" y1="1" x2="860" y2="1" stroke="rgba(236,72,153,0.12)" strokeWidth="1" />
 
     <ellipse id="ftorb1" cx="430" cy="40" rx="300" ry="60" fill="url(#ftg1)" />
     <rect id="ftscan" x="0" y="0" width="860" height="80" fill="url(#fsg)" />
   </svg>
 
   <div style={{ display: 'flex', alignItems: 'center', gap: 6, zIndex: 10 }}>
-    <div id="ftd1" style={{ width: 4, height: 4, borderRadius: 2, background: 'rgba(0,229,255,0.6)' }} />
-    <div id="ftd2" style={{ width: 4, height: 4, borderRadius: 2, background: 'rgba(139,92,246,0.6)' }} />
-    <div id="ftd3" style={{ width: 4, height: 4, borderRadius: 2, background: 'rgba(236,72,153,0.6)' }} />
+    <div id="ftd1" style={{ width: 4, height: 4, borderRadius: 2, background: 'rgba(236,72,153,0.7)' }} />
+    <div id="ftd2" style={{ width: 4, height: 4, borderRadius: 2, background: 'rgba(139,92,246,0.7)' }} />
+    <div id="ftd3" style={{ width: 4, height: 4, borderRadius: 2, background: 'rgba(244,63,94,0.7)' }} />
   </div>
 
   <span style={{
-    fontSize: 11, color: 'rgba(255,255,255,0.20)', letterSpacing: 3,
-    fontWeight: 300, marginTop: 8, zIndex: 10
+    fontSize: 11, color: 'rgba(190,24,93,0.60)', letterSpacing: 3,
+    fontWeight: 500, marginTop: 8, zIndex: 10
   }}>gaurav kumar pandey · one quiet credit: akuuu.</span>
 </div>
 ```
