@@ -31,12 +31,13 @@ I am a **Full-Stack Software Engineer, Quantitative Developer, and AI Practition
       </ul>
     </td>
     <td valign="top" width="50%">
-      <h4>🧠 AI/ML &amp; Quantitative Finance</h4>
+      <h4>🧠 AI/ML, Quant &amp; Systems Security</h4>
       <ul>
         <li><strong>Graph Machine Learning:</strong> PyTorch Geometric, Heterogeneous Graphs (SAGE, GAT, GCN), <code>GNNExplainer</code> (Explainable AI), Louvain community detection</li>
         <li><strong>AI Agents &amp; NLP:</strong> AgentForge (custom multi-agent framework), RAG pipelines, local sentiment heuristics, OpenAI &amp; Gemini APIs</li>
         <li><strong>Quantitative Systems:</strong> Bayesian MCMC simulations (Metropolis-Hastings, Gibbs), options pricing models (Black-Scholes, SV models), delta-neutral hedging</li>
-        <li><strong>Security &amp; Systems:</strong> Client-side E2EE (AES-GCM-256), PBKDF2 local key derivation, zero-knowledge backend designs, double-entry bookkeeping, API idempotency</li>
+        <li><strong>Systems Security:</strong> E2EE (AES-GCM-256), PBKDF2 local key derivation, zero-knowledge designs, double-entry bookkeeping, API idempotency</li>
+        <li><strong>Mobile Security &amp; Reversing:</strong> APK decompilation (Apktool), Smali code mutation, package refactoring, cryptographic signing (Apksigner)</li>
       </ul>
     </td>
   </tr>
@@ -76,6 +77,13 @@ I am a **Full-Stack Software Engineer, Quantitative Developer, and AI Practition
 * **Zero-Knowledge Backend**: Built an E2EE messaging platform with a Python backend storing only encrypted blobs and room hashes, never learning room IDs or contents.
 * **Browser Cryptography**: Implemented PBKDF2 local key derivation and AES-GCM-256 Web Crypto API encryption, with a panic lock trigger instantly wiping key memory.
 * *Tech Stack:* Python, Web Crypto API, JavaScript (SPA Router), HTML5/CSS3.
+
+#### 📱 [APK Clone &amp; Repackage Engine](https://github.com/Alwaysgaurav1/apk-cloner-toolkit)
+> An automated reverse engineering toolkit to decompile, patch, refactor, and cryptographically sign Android APKs to create independent app clones.
+* **Package Name &amp; Manifest Mutation**: Programmed custom scripting engines to recursively rewrite resource references and Package Identifiers (package name renaming) in XML/Smali files, avoiding conflicts on the Android runtime.
+* **Smali Bytecode Patching**: Engineered custom hooks injected into decompiled Smali files to bypass client-side verification, API keys checks, and local signature validation routines.
+* **Repackaging Pipeline**: Automated assembly using `apktool`, alignment optimization with `zipalign`, and cryptographic signing using `apksigner` with auto-generated test keys.
+* *Tech Stack:* Python, Bash, Apktool, Smali, Zipalign, Apksigner.
 
 ---
 
