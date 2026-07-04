@@ -293,7 +293,7 @@
 <!-- FEATURED PROJECTS — Rich project cards with animated glow borders -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-```aura width=860 height=490
+```aura width=860 height=566
 <div style={{
   width: '100%', height: '100%', background: '#06060a',
   display: 'flex', flexDirection: 'column', alignItems: 'center',
@@ -314,9 +314,10 @@
     #pjs3 { animation: pj-status 2s ease-in-out infinite 0.8s; }
     #pjs4 { animation: pj-status 2s ease-in-out infinite 1.2s; }
     #pjs5 { animation: pj-status 2s ease-in-out infinite 1.6s; }
+    #pjs6 { animation: pj-status 2s ease-in-out infinite 2.0s; }
   `}</style>
 
-  <svg width="860" height="490" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="860" height="566" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="pjg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(0,229,255,0.20)" />
@@ -331,9 +332,9 @@
         <stop offset="100%" stopColor="rgba(236,72,153,0)" />
       </radialGradient>
     </defs>
-    <ellipse id="pjo1" cx="100" cy="400" rx="220" ry="180" fill="url(#pjg1)" />
+    <ellipse id="pjo1" cx="100" cy="470" rx="220" ry="180" fill="url(#pjg1)" />
     <ellipse id="pjo2" cx="760" cy="100" rx="200" ry="160" fill="url(#pjg2)" />
-    <ellipse id="pjo3" cx="430" cy="450" rx="180" ry="140" fill="url(#pjg3)" />
+    <ellipse id="pjo3" cx="430" cy="520" rx="180" ry="140" fill="url(#pjg3)" />
   </svg>
 
   <span style={{
@@ -377,6 +378,13 @@
         tech: 'Python · Web Crypto API · JavaScript',
         color: '168,85,247',
         statusId: 'pjs5'
+      },
+      {
+        title: 'APK Clone &amp; Repackage Engine',
+        desc: 'Automated toolkit to decompile, patch, and repackage secure Android APKs for multi-app cloning.',
+        tech: 'Python · Apktool · Smali · Apksigner',
+        color: '0,180,255',
+        statusId: 'pjs6'
       }
     ].map(function(project, i) {
       return (
@@ -611,6 +619,6 @@
   <span style={{
     fontSize: 11, color: 'rgba(255,255,255,0.20)', letterSpacing: 3,
     fontWeight: 300, marginTop: 8, zIndex: 10
-  }}>gaurav kumar pandey · crafted with precision</span>
+  }}>gaurav kumar pandey · designed with 💙 using google antigravity</span>
 </div>
 ```
