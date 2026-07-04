@@ -80,6 +80,7 @@ I am a **Full-Stack Software Engineer, Quantitative Developer, and AI Practition
 
 #### 📱 [APK Clone &amp; Repackage Engine](https://github.com/Alwaysgaurav1/apk-cloner-toolkit)
 > An automated reverse engineering toolkit to decompile, patch, refactor, and cryptographically sign Android APKs to create independent app clones.
+* **App Cloning Deployments**: Successfully cloned and executed parallel instances of complex enterprise applications (e.g., **Physics Wallah (PW)** and other high-security platforms) by bypassing anti-cloning layers.
 * **Package Name &amp; Manifest Mutation**: Programmed custom scripting engines to recursively rewrite resource references and Package Identifiers (package name renaming) in XML/Smali files, avoiding conflicts on the Android runtime.
 * **Smali Bytecode Patching**: Engineered custom hooks injected into decompiled Smali files to bypass client-side verification, API keys checks, and local signature validation routines.
 * **Repackaging Pipeline**: Automated assembly using `apktool`, alignment optimization with `zipalign`, and cryptographic signing using `apksigner` with auto-generated test keys.
